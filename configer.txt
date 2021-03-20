@@ -1,0 +1,26 @@
+$free -m
+              total        used        free      shared  buff/cache   available
+Mem:         128852       10322       70826         616       47703      116754
+Swap:        190734           0      190734
+
+$ cat /proc/cpuinfo 
+
+
+
+$03:00.0 VGA compatible controller: NVIDIA Corporation Device 1b06 (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: NVIDIA Corporation Device 120f
+	Physical Slot: 4
+	Flags: bus master, fast devsel, latency 0, IRQ 70
+	Memory at f2000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at e0000000 (64-bit, prefetchable) [size=256M]
+	Memory at f0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at 7000 [size=128]
+	[virtual] Expansion ROM at f3000000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvidia
+
+# NVIDIA Corporation Device 1b06 (rev a1)
+
+Intel® Xeon(R) CPU E5-2620 v4 @ 2.10GHz × 32 
+
+
